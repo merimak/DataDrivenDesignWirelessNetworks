@@ -1,0 +1,66 @@
+=== Run information ===
+
+Scheme:weka.classifiers.lazy.IBk -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     Dataset0_1_500bins_devices
+Instances:    4926
+Attributes:   501
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        4033               81.8717 %
+Incorrectly Classified Instances       893               18.1283 %
+Kappa statistic                          0.7973
+Mean absolute error                      0.0262
+Root mean squared error                  0.1607
+Relative absolute error                 20.5066 %
+Root relative squared error             63.5343 %
+Total Number of Instances             4926     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.976     0.001      0.982     0.976     0.979      0.99     dell_a
+                 0.717     0.026      0.615     0.717     0.662      0.84     dell_b
+                 0.844     0.021      0.691     0.844     0.76       0.916    dell_c
+                 0.915     0.013      0.892     0.915     0.903      0.954    dell_d
+                 0.943     0.008      0.941     0.943     0.942      0.966    dell_e
+                 0.345     0.002      0.866     0.345     0.494      0.654    ipad_a
+                 0.573     0.008      0.678     0.573     0.621      0.794    ipad_b
+                 1         0.001      0.99      1         0.995      1        ipad_c
+                 0.963     0          1         0.963     0.981      0.982    iphone_a
+                 0.988     0          0.992     0.988     0.99       0.994    iphone_b
+                 1         0          1         1         1          1        iphone_c
+                 0.977     0          1         0.977     0.989      0.993    iphone_d
+                 0.644     0.057      0.697     0.644     0.67       0.791    nokia_a
+                 0.746     0.072      0.677     0.746     0.71       0.833    nokia_b
+Weighted Avg.    0.819     0.027      0.824     0.819     0.816      0.895
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   m   n   <-- classified as
+ 164   3   0   0   0   1   0   0   0   0   0   0   0   0 |   a = dell_a
+   0 190  61   7   0   0   1   0   0   0   0   0   5   1 |   b = dell_b
+   0  36 217   3   0   0   0   0   0   0   0   0   0   1 |   c = dell_c
+   0   3   1 472  34   0   0   0   0   0   0   0   4   2 |   d = dell_d
+   0   0   2  31 576   0   0   0   0   0   0   0   2   0 |   e = dell_e
+   0  44  18   5   0  58  37   0   0   0   0   0   4   2 |   f = ipad_a
+   0  27  12   1   1   7  82   0   0   0   0   0   8   5 |   g = ipad_b
+   0   0   0   0   0   0   0 299   0   0   0   0   0   0 |   h = ipad_c
+   3   3   2   2   0   1   0   0 342   0   0   0   2   0 |   i = iphone_a
+   0   0   0   0   0   0   0   3   0 257   0   0   0   0 |   j = iphone_b
+   0   0   0   0   0   0   0   0   0   0 137   0   0   0 |   k = iphone_c
+   0   0   0   0   0   0   0   0   0   2   0  86   0   0 |   l = iphone_d
+   0   3   0   7   1   0   1   0   0   0   0   0 536 284 |   m = nokia_a
+   0   0   1   1   0   0   0   0   0   0   0   0 208 617 |   n = nokia_b
+

@@ -1,0 +1,73 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     TrainingSet_final
+Instances:    4933
+Attributes:   501
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+B6 <= 460
+|   B10 <= 78
+|   |   B7 <= 199: dell (1820.0)
+|   |   B7 > 199
+|   |   |   B33 <= 2
+|   |   |   |   B46 <= 1: nokia (2.0)
+|   |   |   |   B46 > 1: ipad (4.0)
+|   |   |   B33 > 2: ipad (156.0)
+|   B10 > 78
+|   |   B7 <= 117
+|   |   |   B16 <= 234: iphone (598.0)
+|   |   |   B16 > 234
+|   |   |   |   B25 <= 23: ipad (2.0)
+|   |   |   |   B25 > 23: iphone (15.0)
+|   |   B7 > 117
+|   |   |   B34 <= 20
+|   |   |   |   B2 <= 211: ipad (451.0/3.0)
+|   |   |   |   B2 > 211: nokia (18.0)
+|   |   |   B34 > 20: iphone (83.0)
+B6 > 460
+|   B21 <= 12: nokia (1641.0/1.0)
+|   B21 > 12: iphone (143.0)
+
+Number of Leaves  : 	12
+
+Size of the tree : 	23
+
+
+Time taken to build model: 1.74 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        4919               99.7162 %
+Incorrectly Classified Instances        14                0.2838 %
+Kappa statistic                          0.996 
+Mean absolute error                      0.0018
+Root mean squared error                  0.0376
+Relative absolute error                  0.5026 %
+Root relative squared error              8.9494 %
+Total Number of Instances             4933     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 1         0          1         1         1          1        dell
+                 0.992     0.001      0.99      0.992     0.991      0.997    ipad
+                 0.993     0.001      0.995     0.993     0.994      0.998    iphone
+                 0.998     0.001      0.998     0.998     0.998      0.999    nokia
+Weighted Avg.    0.997     0.001      0.997     0.997     0.997      0.999
+
+=== Confusion Matrix ===
+
+    a    b    c    d   <-- classified as
+ 1820    0    0    0 |    a = dell
+    0  606    3    2 |    b = ipad
+    0    4  836    2 |    c = iphone
+    0    2    1 1657 |    d = nokia
+

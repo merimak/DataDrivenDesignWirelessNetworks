@@ -1,0 +1,46 @@
+=== Run information ===
+
+Scheme:weka.classifiers.lazy.IBk -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     TrainingSet_final
+Instances:    4933
+Attributes:   501
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        4763               96.5538 %
+Incorrectly Classified Instances       170                3.4462 %
+Kappa statistic                          0.9507
+Mean absolute error                      0.0176
+Root mean squared error                  0.1312
+Relative absolute error                  4.9711 %
+Root relative squared error             31.2275 %
+Total Number of Instances             4933     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.993     0.04       0.935     0.993     0.963      0.977    dell
+                 0.784     0.002      0.98      0.784     0.871      0.894    ipad
+                 0.979     0          1         0.979     0.989      0.988    iphone
+                 0.996     0.01       0.98      0.996     0.988      0.992    nokia
+Weighted Avg.    0.966     0.019      0.967     0.966     0.964      0.974
+
+=== Confusion Matrix ===
+
+    a    b    c    d   <-- classified as
+ 1807    1    0   12 |    a = dell
+  111  479    0   21 |    b = ipad
+    8    9  824    1 |    c = iphone
+    7    0    0 1653 |    d = nokia
+

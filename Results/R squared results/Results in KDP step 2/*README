@@ -1,0 +1,4 @@
+This folder contains results for the data analysis performed in Section IV-B of the tutorial paper.
+While Section IV-B presents only results for the TCP case, this folder presents results obtained for the remaining traffic cases: UDP (Case 1, Case 2, Case 3), ICMP (Case 1, Case 2), SCP.
+For more details about the dataset of the remaining traffic cases, please refer to the paper "GTID: A Technique for Physical Device and Device Type Fingerprinting" (http://www.citeulike.org/group/5303/article/13432786).
+

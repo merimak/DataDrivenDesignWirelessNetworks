@@ -1,0 +1,2 @@
+This folder contains performance results of the learning algorithms: k-NN, decision trees, logistic regression and neural networks, performed in Section IV-E of the tutorial paper.
+All algorithms were trained on a training set formed using the Gatech dataset- TCP case.

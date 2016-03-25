@@ -1,0 +1,5 @@
+This folder contains R squared results obtained after the data cleaning subphase of pre-processing that was performed in Section IV-C of the tutorial paper.
+
+While Section IV-C presents only partial results for the "device classification" TCP case, this folder presents full results for TCP and the remaining traffic cases: UDP (Case 1, Case 2, Case 3), ICMP (Case 1, Case 2), SCP.
+For more details about the dataset of the remaining traffic cases, please refer to the paper "GTID: A Technique for Physical Device and Device Type Fingerprinting" (http://www.citeulike.org/group/5303/article/13432786).
+
