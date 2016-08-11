@@ -8,6 +8,7 @@ Whereas well-defined aspects of wireless systems such as algorithm behavior, pro
 In order to perform data driven research in a specific field, as are wireless networks, also domain specific knowledge is needed besides computer science and statistical knowledge.
 However, due to already established practices of pursuing research in wireless networks (using simulation or model based analysis), some attempts of applying data science to wireless networks research do not follow the best practices as defined in the data science community.
 
-This repository provides a set of scripts and results that were used in the tutorial paper on the correct methodology of using data science in wireless networks research. 
+This repository provides a set of scripts and results that were used in the tutorial paper on the correct methodology of using data science in wireless networks research. The paper can be found on this link:
+http://www.mdpi.com/1424-8220/16/6/790/htm
 
 
