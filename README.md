@@ -12,3 +12,18 @@ This repository provides a set of scripts and results that were used in the tuto
 http://www.mdpi.com/1424-8220/16/6/790/htm
 
 
+##Citation
+If using this work in your research, citation of our publication introducing the KDP for wireless networks would be greatly appreciated!
+The paper is available at www.mdpi.com/1424-8220/16/6/790/pdf and a simple bibtex entry is provided below.
+```
+@article{kulin2016data,
+  title={Data-Driven Design of Intelligent Wireless Networks: An Overview and Tutorial},
+  author={Kulin, Merima and Fortuna, Carolina and De Poorter, Eli and Deschrijver, Dirk and Moerman, Ingrid},
+  journal={Sensors},
+  volume={16},
+  number={6},
+  pages={790},
+  year={2016},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+```
