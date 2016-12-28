@@ -27,8 +27,12 @@ The paper is available at www.mdpi.com/1424-8220/16/6/790/pdf and a simple bibte
   publisher={Multidisciplinary Digital Publishing Institute}
 }
 ```
-If using the code in your research please directly **cite the code**:
-Merima Kulin, Carolina Fortuna, Eli De Poorter, Dirk Deschrijver and Ingrid Moerman (2016, December 28), Scripts used for solving a wireless device fingerprinting classification problem in the "Data-Driven Design of Intelligent Wireless Networks: An Overview and Tutorial". GitHub. Retrieved from https://github.com/merimak/DataDrivenDesignWirelessNetworks, doi: 10.5281/zenodo.223332.
+
+If using the code in your research please directly **cite the code** as:
+
+```
+Merima Kulin, Carolina Fortuna, Eli De Poorter, Dirk Deschrijver and Ingrid Moerman (2016, December 28). Scripts used for solving a wireless device fingerprinting classification problem in the "Data-Driven Design of Intelligent Wireless Networks: An Overview and Tutorial". GitHub. Retrieved from https://github.com/merimak/DataDrivenDesignWirelessNetworks, doi: 10.5281/zenodo.223332.
+```
 
 [![DOI](https://zenodo.org/badge/54724227.svg)](https://zenodo.org/badge/latestdoi/54724227)
 
